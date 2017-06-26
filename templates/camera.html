@@ -1,0 +1,24 @@
+<ion-view>
+  <ion-nav-bar class="bar-positive">
+
+    <ion-nav-title>
+      Camera API
+    </ion-nav-title>
+
+    <ion-nav-buttons side="left">
+      <button class="button" ng-click="btnCamera()">Camera</button>
+    </ion-nav-buttons>
+
+    <ion-nav-buttons side="right">
+      <button class="button" ng-click="btnGallery()">Gallery</button>
+    </ion-nav-buttons>
+
+
+  </ion-nav-bar>
+
+  <ion-content>
+    <img src="../img/camera_art.jpg" style="margin: auto;display:block; padding: 2em;" id="myImage" width="60%" height="60%">
+    <button class="button button-large button-energized" ng-click="btnUpload()" style="margin: auto;display:block; width: 80%">Upload</button>
+  </ion-content>
+</ion-view>
+
